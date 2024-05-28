@@ -10,6 +10,8 @@
 describe("LogViewer", function () {
     this.timeout(0);
 
+    this.fixture = "Piwik\\Plugins\\LogViewer\\tests\\Fixtures\\EmptySite";
+
     var generalParams = 'idSite=1&period=day&date=2010-01-03';
 
     async function searchForText(textToAppendToSearchField)
@@ -47,9 +49,9 @@ describe("LogViewer", function () {
         testEnvironment.configOverride = {
             log: {
                 'log_writers': logWriters,
-                'logger_file_path': PIWIK_INCLUDE_PATH + '/plugins/LogViewer/tests/resources/piwik.log'
             }
         };
+        testEnvironment.logForReading = PIWIK_INCLUDE_PATH + '/plugins/LogViewer/tests/resources/piwik.log';
         testEnvironment.save();
     }
 
