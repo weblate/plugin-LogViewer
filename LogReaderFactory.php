@@ -26,7 +26,12 @@ class LogReaderFactory
 
         switch ($source) {
             case 'file':
-                $testFilePath = StaticContainer::get('test.vars.logForReading');
+                $testFilePath = '';
+                try {
+                    $testFilePath = StaticContainer::get('test.vars.logForReading');
+                } catch (\Throwable $th) {
+                    // Do nothing
+                }
                 $path = $testFilePath ?: StaticContainer::get('log.file.filename');
 
                 return new File($path);
