@@ -1,1 +1,18 @@
-{}
+{
+    "LogViewer": {
+        "AnySeverity": "Aon Déine",
+        "ClickToSearchForThis": "Cliceáil chun an téarma seo a chuardach",
+        "CurrentLogConfigIs": "Tá an logáil cumraithe mar seo a leanas: %s, cliceáil chun tuilleadh a léamh faoi chumrú na logáil.",
+        "ExportThisSearch": "Easpórtáil an cuardach seo mar %1$s ina bhfuil na %2$s iontrálacha is déanaí. Seans go dtógfaidh an íoslódáil cúpla nóiméad…",
+        "LogViewer": "Amharcóir Logchomhaid",
+        "Message": "Teachtaireacht",
+        "NoSupportedLogWriterConfiguredMessage": "Má bhí ceann cumraithe san am a chuaigh thart, is féidir leat breathnú ar shean logaí fós ach ní thaispeánfar cinn nua. Léigh tuilleadh faoi %1$show chun logscríbhneoir a dtacaítear leis%2$s a chumrú. Tacaítear leo: %3$s",
+        "NoSupportedLogWriterConfiguredTitle": "Níl aon logscríbhneoir tacaithe cumraithe",
+        "RequestId": "Aitheantas Iarratas",
+        "SearchHelp": "Ní cás íogair é an cuardach. Má chumasaítear sloinn rialta, seans go mbeidh gá le carachtair ar nós '[' a éalú (m.sh. '\\[').",
+        "SearchPattern": "Patrún cuardaigh",
+        "Severity": "Déine",
+        "Tag": "Chlib",
+        "UseRegExp": "Bain úsáid as nathanna rialta"
+    }
+}
