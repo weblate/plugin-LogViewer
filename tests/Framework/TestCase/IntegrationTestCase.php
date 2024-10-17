@@ -1,4 +1,5 @@
 <?php
+
 /**
  * Matomo - free/libre analytics platform
  *
@@ -38,5 +39,4 @@ class IntegrationTestCase extends \Piwik\Tests\Framework\TestCase\IntegrationTes
         $log['log_writers']        = $writer;
         Config::getInstance()->log = $log;
     }
-
 }

@@ -1,4 +1,5 @@
 <?php
+
 /**
  * Matomo - free/libre analytics platform
  *
@@ -67,5 +68,4 @@ class FileTest extends IntegrationTestCase
     {
         return new File($path);
     }
-
 }

@@ -1,4 +1,5 @@
 <?php
+
 /**
  * Matomo - free/libre analytics platform
  *
@@ -119,5 +120,4 @@ class ResultTest extends \PHPUnit\Framework\TestCase
     {
         return new Result($limitPerPage, $page);
     }
-
 }

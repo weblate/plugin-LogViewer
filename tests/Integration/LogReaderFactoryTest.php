@@ -1,4 +1,5 @@
 <?php
+
 /**
  * Matomo - free/libre analytics platform
  *
@@ -118,5 +119,4 @@ class LogReaderFactoryTest extends IntegrationTestCase
             'log.file.filename' => PIWIK_INCLUDE_PATH . '/plugins/LogViewer/tests/resources/piwik.log'
         );
     }
-
 }

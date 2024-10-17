@@ -1,4 +1,5 @@
 <?php
+
 /**
  * Matomo - free/libre analytics platform
  *
@@ -16,5 +17,4 @@ class Line
     {
         $this->content = $content;
     }
-
 }

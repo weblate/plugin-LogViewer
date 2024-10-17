@@ -1,4 +1,5 @@
 <?php
+
 /**
  * Matomo - free/libre analytics platform
  *
@@ -60,5 +61,4 @@ class QueryTest extends \PHPUnit\Framework\TestCase
     {
         return new Query($query);
     }
-
 }

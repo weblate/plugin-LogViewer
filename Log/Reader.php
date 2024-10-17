@@ -1,4 +1,5 @@
 <?php
+
 /**
  * Matomo - free/libre analytics platform
  *
@@ -18,5 +19,4 @@ interface Reader
      * @return Line|null Returns next log line or null if end of log
      */
     public function nextLine();
-
 }
