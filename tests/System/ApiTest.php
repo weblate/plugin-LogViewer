@@ -1,4 +1,5 @@
 <?php
+
 /**
  * Matomo - free/libre analytics platform
  *
@@ -68,5 +69,4 @@ class ApiTest extends SystemTestCase
             'log.file.filename' => PIWIK_INCLUDE_PATH . '/plugins/LogViewer/tests/resources/piwik.log'
         );
     }
-
 }

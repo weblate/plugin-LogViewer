@@ -1,4 +1,5 @@
 <?php
+
 /**
  * Matomo - free/libre analytics platform
  *
@@ -23,5 +24,4 @@ class LineTest extends \PHPUnit\Framework\TestCase
         $line = new Line('MyTestMessage');
         $this->assertSame('MyTestMessage', $line->content);
     }
-
 }

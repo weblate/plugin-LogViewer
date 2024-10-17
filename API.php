@@ -1,4 +1,5 @@
 <?php
+
 /**
  * Matomo - free/libre analytics platform
  *
@@ -94,5 +95,4 @@ class API extends \Piwik\Plugin\API
 
         return Config::getInstance()->log;
     }
-
 }

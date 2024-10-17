@@ -1,4 +1,5 @@
 <?php
+
 /**
  * Matomo - free/libre analytics platform
  *
@@ -71,7 +72,5 @@ class Database implements Reader
         }
 
         return $lines;
-
     }
-
 }
